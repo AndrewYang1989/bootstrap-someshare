@@ -1,12 +1,127 @@
-/* 
+#footer{}
+/*
 * @Author: anchen
 * @Date:   2016-10-31 20:12:28
 * @Last Modified by:   anchen
-* @Last Modified time: 2016-10-31 21:27:56
+* @Last Modified time: 2016-11-01 16:08:45
 */
+/*bootstropÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¹ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Â¦ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢*/
+.navbar-yyjnav {
+  background-color: #fff;
+  border-color: #f5f5f5;
+  height: 80px;
+}
+.navbar-yyjnav .navbar-brand {
+  color: #777;
+}
+.navbar-yyjnav .navbar-brand:hover,
+.navbar-yyjnav .navbar-brand:focus {
+  color: #5e5e5e;
+  background-color: transparent;
+}
+.navbar-yyjnav .navbar-text {
+  color: #777;
+}
+.navbar-yyjnav .navbar-nav > li > a {
+  color: #777;
+  line-height: 48px;
+  font-size: 14px;
+}
+.navbar-yyjnav .navbar-nav > li > a:hover,
+.navbar-yyjnav .navbar-nav > li > a:focus {
+  color: #333;
+  background-color: transparent;
+  border-bottom: 2px solid #e92322;
+}
+.navbar-yyjnav .navbar-nav > .active > a,
+.navbar-yyjnav .navbar-nav > .active > a:hover,
+.navbar-yyjnav .navbar-nav > .active > a:focus {
+  color: #555;
+  background-color: transparent;
+  border-bottom: 2px solid #e92322;
+}
+.navbar-yyjnav .navbar-nav > .disabled > a,
+.navbar-yyjnav .navbar-nav > .disabled > a:hover,
+.navbar-yyjnav .navbar-nav > .disabled > a:focus {
+  color: #ccc;
+  background-color: transparent;
+}
+.navbar-yyjnav .navbar-toggle {
+  border-color: #ddd;
+  margin-bottom: 23px;
+  margin-top: 23px;
+}
+.navbar-yyjnav .navbar-toggle:hover,
+.navbar-yyjnav .navbar-toggle:focus {
+  background-color: #ddd;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+.navbar-yyjnav .navbar-toggle .icon-bar {
+  background-color: #888;
+}
+.navbar-yyjnav .navbar-collapse,
+.navbar-yyjnav .navbar-form {
+  border-color: #e7e7e7;
+}
+.navbar-yyjnav .navbar-nav > .open > a,
+.navbar-yyjnav .navbar-nav > .open > a:hover,
+.navbar-yyjnav .navbar-nav > .open > a:focus {
+  color: #555;
+  background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+  .navbar-yyjnav .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .navbar-yyjnav .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-yyjnav .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-yyjnav .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-yyjnav .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-yyjnav .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-yyjnav .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-yyjnav .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-yyjnav .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.navbar-yyjnav .navbar-link {
+  color: #777;
+}
+.navbar-yyjnav .navbar-link:hover {
+  color: #333;
+}
+.navbar-yyjnav .btn-link {
+  color: #777;
+}
+.navbar-yyjnav .btn-link:hover,
+.navbar-yyjnav .btn-link:focus {
+  color: #333;
+}
+.navbar-yyjnav .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-yyjnav .btn-link:hover,
+.navbar-yyjnav .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-yyjnav .btn-link:focus {
+  color: #ccc;
+}
+/*
+ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¦ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â±ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬
+ */
+*{
+  padding: 0;
+  margin:0;
+}
 body{
      font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
 }
+
 @font-face {
     font-family:'changtouzaixian';
     src:url('../font/MiFie-Web-Font.eot') format('embedded-opentype'),
@@ -39,16 +154,15 @@ body{
 }
 
 /**
- *   头部区域
+ *   ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¤ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â´ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¨ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â‚¬Å¾Ã‚Â¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¥ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¸
  */
 #header{
-    height: 200px;
-    background-color: #f0f0f0;
+    height: 121px;
 }
 #header>.topbar{
 height:40px;
 line-height: 40px;
-border-bottom: 1px solid #000;
+border-bottom: 1px solid #ccc;
 }
 #header .mobile-link {
 font-size: 12px;
@@ -67,6 +181,26 @@ color:#888;
     left:50%;
     margin-left: -60px;
     top: 29px;
+    z-index: 1001;
+}
+#header >.topbar>.container>.row div{
+  height:40px;
+  font-size: 12px;
+}
+#header .row div+div{
+  border-left:1px solid #ccc;
+}
+#header .icon-icon{
+    font-size: 50px;
+    color: #e92322;
+    line-height: 50px;
+    vertical-align: middle;
+}
+#header .icon-logo{
+    font-size: 32px;
+    color: #333;
+    line-height: 50px;
+    vertical-align: middle;
 }
 /*
 
